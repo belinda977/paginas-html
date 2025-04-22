@@ -1,0 +1,63 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #F5F5DC; /* Beige */
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Blanco */
+    border: 2px solid #FFFFFF;
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px;
+    margin: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: transparent; /* Fondo transparente al acercarse */
+    color: #F5F5DC; /* Cambia el color de las letras a beige */
+}
+.logo-redondo {
+    border-radius: 50%; /* Hace que el logo sea redondo */
+    border: 2px solid white; /* Bordes opcionales (color blanco) */
+}
+
+
+/* Carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Tarjetas */
+.card {
+    height: 300px; /* Tamaño fijo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 150px; /* Ajusta la altura de la imagen */
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #F5F5DC; /* Beige */
+    color: #333333; /* Texto oscuro para contraste */
+    text-align: center;
+    padding: 10px;
+}
